@@ -1,0 +1,45 @@
+a*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif,arial;
+	font-size: 16px;
+	background: lightcoral;
+}
+
+.contenedor{
+width: 1000px;
+margin: 20px auto;
+}
+
+header{
+	background: skyblue;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+}
+
+header nav ul li{
+	float: left;
+	list-style:none;
+}
+
+header nav ul li a{
+text-decoration: none;/*elimina decoraciones*/
+display: inline-block;/*muestra en forma de bloque*/
+padding: 15px 20px;
+color: white;
+}
+
+header nav ul li a:hover{
+	background:green ;
+	color: black;
+}
+
